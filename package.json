@@ -7,7 +7,6 @@
     "start": "node sever.js",
     "serve": "node sever.js",
     "dev": "nodemon server.js",
-    "postinstall": "npm run production",
     "mix": "npm run development -- --mix",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "npm run development -- --watch",
