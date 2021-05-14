@@ -1,9 +1,11 @@
 {
-  "name": "y",
+  "name": "pizza",
   "version": "1.0.0",
-  "description": "y",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "node sever.js",
     "dev": "nodemon server.js",
     "mix": "npm run development -- --mix",
