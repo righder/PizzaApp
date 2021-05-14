@@ -1,1 +1,1 @@
-web: node /app/sever.js
+web:node /sever.js
