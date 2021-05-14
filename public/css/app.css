@@ -595,6 +595,22 @@ section.status {
   .status-box ul li span:before {
     font-size: 34px;
   }
+
+  .banner-inner {
+    margin-top: -70px;
+  }
+
+  .menu {
+    margin-top: -335px;
+  }
+
+  .cart {
+    padding-right: -30px;
+  }
+
+  .textname {
+    padding-right: 10px;
+  }
 }
 .StripeElement {
   box-sizing: border-box;

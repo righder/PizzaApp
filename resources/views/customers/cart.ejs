@@ -1,16 +1,16 @@
 <section class="cart py-16">
     <% if(session.cart) { %>
-        <div class="order container mx-auto w-1/2">
+        <div class="order container mx-auto xl:w-1/2">
             <div class="flex items-center border-b border-gray-300 pb-4">
                 <img src="/img/cart-black.png" alt="">
                 <h1 class="font-bold ml-4 text-2xl">Order summary</h1>
             </div>
-            <div class="pizza-list">
+            <div class="pizza-list ctct">
                 <% for(let pizza of Object.values(session.cart.items)) { %>
                     <div class="flex items-center my-8">
                         <img class="w-24" src="/img/<%= pizza.item.image %>" alt="">
                         <div class="flex-1 ml-4">
-                            <h1>
+                            <h1 class="textname">
                                 <%= pizza.item.name %>
                             </h1>
                             <span>
@@ -21,6 +21,7 @@
                             <%= pizza.qty %> Pcs
                         </span>
                         <span class="font-bold text-lg">₹ <%= pizza.item.price * pizza.qty %></span>
+                        <!-- <button class="ml-12" id="deleteCartButton" data-piza-id="<%= pizza.item._id %>">Delete</button> -->
                     </div>
                     <% } %>
             </div>
