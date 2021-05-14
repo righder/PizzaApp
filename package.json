@@ -2,9 +2,8 @@
   "name": "y",
   "version": "1.0.0",
   "description": "y",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node sever.js",
     "serve": "node sever.js",
     "dev": "nodemon server.js",
     "mix": "npm run development -- --mix",
