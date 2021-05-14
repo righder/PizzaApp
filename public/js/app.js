@@ -26936,7 +26936,7 @@ process.umask = function() { return 0; };
 /******/ 			return checkDeferredModules();
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkPizza_store"] = self["webpackChunkPizza_store"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunky"] = self["webpackChunky"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 		
